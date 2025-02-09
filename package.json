@@ -1,0 +1,22 @@
+{
+  "name": "parkee-technical-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bulletshell/PARKEE-technical-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bulletshell/PARKEE-technical-test/issues"
+  },
+  "homepage": "https://github.com/Bulletshell/PARKEE-technical-test#readme",
+  "dependencies": {
+    "cypress": "^14.0.2"
+  }
+}
