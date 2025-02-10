@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "open": "cypress open"
+    "open": "cypress open",
+    "apiTest": "cypress run --spec cypress/e2e/apiValidationTest.cy.js",
+    "webTest": "cypress run --headed --spec cypress/e2e/testCaseCreation.cy.js",
+    "all": "cypress run --headed"
   },
   "repository": {
     "type": "git",
