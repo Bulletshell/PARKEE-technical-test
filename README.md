@@ -132,7 +132,11 @@ Before running the tests, ensure you have the following installed on your system
 
 1. **Bug 1**: Password is visible in the password input value attribute.
 2. **Bug 2**: Empty cart allows proceeding to checkout (no error message visible).
+3. **Bug 3**: Item missing from the cart when removing one item.
 
 ---
 
-ℹ️ **_NOTE:_** The 'Check out with empty cart' case should fail because no Error Message appear
+ℹ️ **_NOTE:_**
+
+1. The 'Check out with empty cart' case should fail because no Error Message appear
+2. The 'Check if Password is not visible in the value attribute' Test should Fail because Password input has value attribute
